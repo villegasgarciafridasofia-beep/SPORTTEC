@@ -1,254 +1,164 @@
-<div align="center">
+# Resumen Ejecutivo
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=SportTec&fontColor=ffffff&fontSize=60&animation=fadeIn"/>
+SportTec es una plataforma web desarrollada para la Universidad Tecnológica de Tecámac con el objetivo de optimizar la administración de deportes y talleres institucionales.
 
-<h2>Sports and Workshops Management Platform</h2>
-
-<p>
-Proyecto desarrollado para la Universidad Tecnológica de Tecámac
-</p>
-
-<img src="https://img.shields.io/badge/Status-Finished-success?style=flat-square"/>
-<img src="https://img.shields.io/badge/Architecture-MVC-blue?style=flat-square"/>
-<img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square"/>
-<img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square"/>
-
-</div>
+La solución centraliza la gestión de alumnos, docentes, actividades deportivas, talleres, horarios e inscripciones mediante una arquitectura estructurada que facilita la administración, consulta y control de la información.
 
 ---
 
-# Executive Summary
+# Información General del Proyecto
 
-SportTec es una plataforma web diseñada para optimizar la administración de deportes y talleres de la Universidad Tecnológica de Tecámac.
-
-La solución centraliza la gestión de alumnos, docentes, actividades deportivas, talleres, horarios e inscripciones mediante una arquitectura estructurada que facilita la administración y consulta de información institucional.
-
----
-
-# Project Overview
-
-<table>
-<tr>
-<td width="50%">
-
-### Institution
-
-Universidad Tecnológica de Tecámac
-
-### Project Type
-
-Web Information System
-
-### Architecture
-
-MVC (Model - View - Controller)
-
-### Development Model
-
-Incremental Development
-
-</td>
-
-<td width="50%">
-
-### Frontend
-
-HTML5  
-CSS3  
-JavaScript  
-Bootstrap
-
-### Backend
-
-PHP
-
-### Database
-
-PostgreSQL
-
-</td>
-</tr>
-</table>
+| Concepto | Descripción |
+|-----------|-------------|
+| Institución | Universidad Tecnológica de Tecámac |
+| Tipo de Proyecto | Sistema Web de Gestión |
+| Arquitectura | MVC (Modelo - Vista - Controlador) |
+| Base de Datos | PostgreSQL |
+| Backend | PHP |
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap |
+| Estado | Finalizado |
 
 ---
 
-# System Architecture
+# Problemática
 
-<div align="center">
+Antes del desarrollo de SportTec, la administración de deportes y talleres se realizaba de manera manual, dificultando el control de inscripciones, la organización de horarios y la administración de la información de alumnos y docentes.
 
-```text
-Presentation Layer
-        │
-        ▼
-Controller Layer
-        │
-        ▼
-Business Logic Layer
-        │
-        ▼
-Database Layer
-```
-
-</div>
-
-El sistema fue construido bajo el patrón MVC, permitiendo una separación clara de responsabilidades, facilitando el mantenimiento, la escalabilidad y la reutilización del código.
+Además, la difusión de actividades deportivas y culturales era limitada, reduciendo la participación estudiantil.
 
 ---
 
-# Technologies
+# Solución Implementada
 
-<div align="center">
+SportTec fue desarrollado para digitalizar y automatizar los procesos administrativos relacionados con las actividades deportivas y talleres universitarios.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="85"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="85"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="85"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="85"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="85"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="85"/>
+La plataforma permite:
 
-</div>
-
----
-
-# Core Modules
-
-| Module | Description |
-|----------|-------------|
-| Authentication | User login and access control |
-| Students Management | Student registration and administration |
-| Teachers Management | Teachers administration |
-| Sports Management | Sports catalog administration |
-| Workshops Management | Workshops administration |
-| Schedules Management | Activities scheduling |
-| Enrollment Management | Student registrations |
-| Reports | Administrative reports generation |
-| User Roles | Access permissions control |
+- Administración de alumnos.
+- Administración de docentes.
+- Gestión de deportes.
+- Gestión de talleres.
+- Control de horarios.
+- Gestión de usuarios.
+- Control de inscripciones.
+- Consulta de actividades disponibles.
+- Generación de reportes.
 
 ---
 
-# User Roles
+# Arquitectura del Sistema
 
-| Role | Permissions |
+El sistema fue desarrollado bajo el patrón de diseño **MVC (Modelo - Vista - Controlador)**, permitiendo una adecuada separación de responsabilidades entre la lógica de negocio, la interfaz de usuario y el acceso a datos.
+
+### Capas del Sistema
+
+| Capa | Tecnologías |
 |--------|------------|
-| Administrator | Full system control |
-| Teacher | Academic information management |
-| Student | Activities consultation and enrollment |
+| Vista | HTML5, CSS3, Bootstrap, JavaScript |
+| Controlador | PHP |
+| Modelo | PostgreSQL |
+| Servidor | XAMPP |
 
 ---
 
-# System Screenshots
-
-## Login Module
-
-<p align="center">
-<img src="screenshots/login.png" width="85%">
-</p>
-
----
-
-## Main Dashboard
-
-<p align="center">
-<img src="screenshots/dashboard.png" width="85%">
-</p>
-
----
-
-## Sports Administration
-
-<p align="center">
-<img src="screenshots/deportes.png" width="85%">
-</p>
-
----
-
-## Workshops Administration
-
-<p align="center">
-<img src="screenshots/talleres.png" width="85%">
-</p>
-
----
-
-## Users Management
-
-<p align="center">
-<img src="screenshots/usuarios.png" width="85%">
-</p>
-
----
-
-# Development Process
-
-### Requirements Analysis
-
-Identification of administrative processes associated with sports and workshops management.
-
-### Database Design
-
-Relational database modeling and normalization process.
-
-### Software Development
-
-Implementation using PHP, Bootstrap and PostgreSQL under MVC architecture.
-
-### Testing
-
-Functional validation of modules and data integrity verification.
-
----
-
-# Achievements
-
-- Digital transformation of administrative processes.
-- Centralized information management.
-- Improved enrollment control.
-- Better scheduling administration.
-- Reduced operational errors.
-- Enhanced access to institutional information.
-
----
-
-# Skills Applied
-
-- Web Development
-- PHP Development
-- PostgreSQL
-- MVC Architecture
-- Database Modeling
-- Git Version Control
-- Software Engineering
-- Team Collaboration
-
----
-
-# Project Status
+# Tecnologías Utilizadas
 
 <div align="center">
 
-## COMPLETED
-
-Production-ready academic project.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="80"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="80"/>
 
 </div>
 
 ---
 
-# Author
+# Módulos Principales
+
+| Módulo | Funcionalidad |
+|----------|-------------|
+| Inicio de Sesión | Autenticación de usuarios |
+| Gestión de Alumnos | Administración de estudiantes |
+| Gestión de Docentes | Administración de maestros |
+| Gestión de Deportes | Control de disciplinas deportivas |
+| Gestión de Talleres | Administración de talleres |
+| Gestión de Horarios | Organización de actividades |
+| Inscripciones | Registro de alumnos |
+| Usuarios | Administración de accesos |
+| Reportes | Consulta y generación de información |
+
+---
+
+# Roles del Sistema
+
+| Rol | Funciones |
+|--------|------------|
+| Administrador | Gestión completa del sistema |
+| Docente | Consulta y administración de información asignada |
+| Alumno | Consulta e inscripción a actividades |
+
+---
+
+# Metodología de Desarrollo
+
+### Análisis
+
+Identificación de los procesos administrativos relacionados con deportes y talleres.
+
+### Diseño
+
+Modelado de la base de datos relacional y definición de la arquitectura del sistema.
+
+### Implementación
+
+Desarrollo de la plataforma utilizando PHP, Bootstrap y PostgreSQL.
+
+### Pruebas
+
+Validación funcional de cada módulo para garantizar el correcto funcionamiento del sistema.
+
+---
+
+# Resultados Obtenidos
+
+- Digitalización de procesos administrativos.
+- Centralización de la información.
+- Optimización de horarios e inscripciones.
+- Reducción de errores operativos.
+- Mejor administración de usuarios.
+- Mayor difusión de actividades deportivas y culturales.
+
+---
+
+# Competencias Aplicadas
+
+- Desarrollo Web.
+- Programación en PHP.
+- PostgreSQL.
+- Arquitectura MVC.
+- Modelado de Bases de Datos.
+- Control de Versiones con Git.
+- Trabajo en Equipo.
+- Ingeniería de Software.
+
+---
+
+# Estado del Proyecto
+
+## Proyecto Finalizado
+
+Sistema funcional desarrollado como proyecto académico para la Universidad Tecnológica de Tecámac.
+
+---
+
+# Desarrollado por
 
 ### Frida Sofía Villegas García
 
-**Software Development Engineer**
-
 Técnico Superior Universitario en Tecnologías de la Información  
 Ingeniería en Desarrollo y Gestión de Software
-
----
-
-<div align="center">
-
-*"Transforming ideas into technological solutions through innovation, discipline and continuous learning."*
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0F2027,50:203A43,100:2C5364"/>
