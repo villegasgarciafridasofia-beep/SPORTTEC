@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=SportTec&fontColor=ffffff&fontSize=60&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F2027,50:203A43,100:2C5364&text=SPORTTEC&fontColor=ffffff&fontSize=60&animation=fadeIn"/>
 
 <h2>Plataforma Web para la Gestión de Deportes y Talleres</h2>
 
